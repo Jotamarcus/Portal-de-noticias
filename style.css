@@ -1,0 +1,90 @@
+@charset "utf8";
+
+body {
+    font-family: 'Open sans', Arial, Helvetica, Sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #555;
+}
+
+h1,h2{
+    color: #111;
+}
+
+.top-bar {
+    background-color: #333;
+    color: white;
+    border-bottom: 5px solid #fd8a24;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+}
+
+.container {
+    margin: auto;
+    max-width: 800px;
+    padding: 30px;
+}
+/*line-height ideal é o tamamnho da fonte mais 8 pixels*/
+.headline {
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.social-icons {
+     margin-top: 10px;
+}
+
+.social-icon {
+    width: 20px;
+    padding: 10px 10px 10px 0px; 
+}
+
+a {
+    text-decoration: none;
+    color: #fd8a24;
+    font-weight: bold;
+}
+.content{
+    max-width: 600px;
+    margin: auto;
+}
+p{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.cta{
+    font-size: 20px;
+    margin:30px 0px;
+}
+
+figure{
+    padding: 0;
+    margin: 40px 0px;
+    font-size: 11px;
+}
+
+img{
+    width: 100%; 
+}
+
+ol{
+    font-weight: bold;
+    font-size: 20px; 
+}
+.footer{
+    background-color: #333;
+    height: 100px;
+}
